@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * Author       wildma
- * CreateDate   2017/8/23
+ * Date         2017/8/23
  * Desc	        ${APP相关工具类}
  */
 public class AppUtils {

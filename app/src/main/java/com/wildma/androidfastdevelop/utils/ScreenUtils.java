@@ -3,9 +3,9 @@ package com.wildma.androidfastdevelop.utils;
 import android.content.Context;
 
 /**
- * Author     wildma
- * DATE       2017/8/18
- * Des	      ${屏幕相关工具类}
+ * Author       wildma
+ * Date         2017/8/18
+ * Desc	        ${屏幕相关工具类}
  */
 public class ScreenUtils {
 
