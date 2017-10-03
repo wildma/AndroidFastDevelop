@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_waiting_dialog_bg"
+    android:gravity="center"
+    android:minWidth="200dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp">
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/rotate_waiting_dialog"
+        android:indeterminateOnly="true"/>
+
+    <TextView
+        android:id="@+id/tv_hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="正在载入数据..."
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+</LinearLayout>
