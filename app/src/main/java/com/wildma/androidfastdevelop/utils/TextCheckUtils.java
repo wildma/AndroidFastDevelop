@@ -67,7 +67,7 @@ public class TextCheckUtils {
      */
     private boolean isAllHasContent() {
         for (TextView textView : mTextViews) {
-            if (TextUtils.isEmpty(textView.getText().toString())) {
+            if (TextUtils.isEmpty(textView.getText().toString().trim())) {
                 return false;
             }
         }
