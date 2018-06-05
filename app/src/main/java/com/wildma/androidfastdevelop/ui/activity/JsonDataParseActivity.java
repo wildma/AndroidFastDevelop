@@ -18,14 +18,14 @@ import java.util.List;
  * Date         2017/10/8
  * Desc	        ${测试json数据解析}
  */
-public class GsonActivity extends Activity {
+public class JsonDataParseActivity extends Activity {
 
     private final String TAG = this.getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gson);
+        setContentView(R.layout.activity_json_data_parse);
     }
 
     /**

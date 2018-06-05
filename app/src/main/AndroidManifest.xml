@@ -28,7 +28,7 @@
             android:name=".ui.activity.TextCheckActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".ui.activity.GsonActivity"
+            android:name=".ui.activity.JsonDataParseActivity"
             android:screenOrientation="portrait"/>
     </application>
 
