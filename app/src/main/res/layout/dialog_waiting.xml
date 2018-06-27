@@ -26,6 +26,6 @@
         android:layout_marginLeft="20dp"
         android:gravity="center"
         android:text="正在载入数据..."
-        android:textColor="@color/white"
+        android:textColor="@color/color_white"
         android:textSize="16sp"/>
 </LinearLayout>
