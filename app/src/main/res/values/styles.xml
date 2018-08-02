@@ -29,4 +29,16 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <!--RadioButton样式-->
+    <style name="radio_button">
+        <item name="android:textColor">@drawable/selector_text_white_gray</item>
+        <item name="android:layout_width">@dimen/dp_60</item>
+        <item name="android:layout_height">@dimen/dp_30</item>
+        <item name="android:layout_marginLeft">@dimen/dp_8</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+        <item name="android:background">@drawable/selector_bg_blue_gray</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

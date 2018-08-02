@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.wildma.androidfastdevelop.widget.XRadioGroup
+        android:id="@+id/xRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                style="@style/radio_button"
+                android:checked="true"
+                android:text="apple"/>
+
+            <RadioButton
+                android:id="@+id/rb2"
+                style="@style/radio_button"
+                android:text="apple"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_11"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb3"
+                style="@style/radio_button"
+                android:text="apple"/>
+
+            <RadioButton
+                android:id="@+id/rb4"
+                style="@style/radio_button"
+                android:text="apple"/>
+
+        </LinearLayout>
+
+    </com.wildma.androidfastdevelop.widget.XRadioGroup>
+
+</LinearLayout>

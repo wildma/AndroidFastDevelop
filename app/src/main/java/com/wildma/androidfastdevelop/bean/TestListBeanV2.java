@@ -1,7 +1,7 @@
 package com.wildma.androidfastdevelop.bean;
 
 /**
- * Author   mxh
+ * Author   wildma
  * Date     2017/10/8
  * Desc     ${测试列表实体类}
  */

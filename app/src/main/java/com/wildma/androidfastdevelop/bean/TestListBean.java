@@ -3,7 +3,7 @@ package com.wildma.androidfastdevelop.bean;
 import java.util.List;
 
 /**
- * Author   mxh
+ * Author   wildma
  * Date     2017/10/8
  * Desc     ${测试列表实体类}
  */
