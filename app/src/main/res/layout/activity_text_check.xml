@@ -116,7 +116,7 @@
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
                         android:layout_centerVertical="true"
-                        android:src="@mipmap/icon_arrows"/>
+                        android:src="@drawable/icon_arrows"/>
 
                     <TextView
                         android:id="@+id/tv_upload"
