@@ -17,6 +17,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        mContext = this;
         CrashHandler.getInstance().init(this);//初始化CrashHandler
     }
 
