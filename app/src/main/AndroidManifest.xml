@@ -43,6 +43,12 @@
         <activity
             android:name=".ui.activity.MessageNoticeActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.MarqueeViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.WaitingDialogActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

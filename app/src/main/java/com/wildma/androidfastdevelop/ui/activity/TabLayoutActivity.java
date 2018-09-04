@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
  * Author       wildma
  * Github       https://github.com/wildma
  * Date         2018/8/5
- * Desc	        ${TabLayout+ViewPager的使用}
+ * Desc	        ${TabLayout+ViewPager的使用demo}
  */
 public class TabLayoutActivity extends AppCompatActivity {
 

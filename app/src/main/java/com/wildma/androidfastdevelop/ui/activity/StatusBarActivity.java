@@ -13,7 +13,7 @@ import com.wildma.androidfastdevelop.utils.BarUtils;
  * Author       wildma
  * Github       https://github.com/wildma
  * Date         2018/8/12
- * Desc	        ${沉浸式状态栏例子（包括标题栏与状态栏一体化、背景图片与状态栏一体化）}
+ * Desc	        ${沉浸式状态栏demo（包括标题栏与状态栏一体化、背景图片与状态栏一体化）}
  */
 public class StatusBarActivity extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class StatusBarActivity extends AppCompatActivity {
         mIvimage = (ImageView) findViewById(R.id.iv_image);
 
         /*默认是标题栏与状态栏一体化*/
-        BarUtils.setTransparencyBar(StatusBarActivity.this);
+        BarUtils.setTransparencyBarExceptNavigationBar(StatusBarActivity.this);
         BarUtils.setViewHeightEqualStatusBarHeight(mViewStatusBar);
     }
 
@@ -43,7 +43,7 @@ public class StatusBarActivity extends AppCompatActivity {
         mViewStatusBar.setVisibility(View.VISIBLE);
         mLlTitle.setVisibility(View.VISIBLE);
         mIvimage.setVisibility(View.GONE);
-        BarUtils.setTransparencyBar(StatusBarActivity.this);
+        BarUtils.setTransparencyBarExceptNavigationBar(StatusBarActivity.this);
         BarUtils.setViewHeightEqualStatusBarHeight(mViewStatusBar);
     }
 
@@ -56,6 +56,6 @@ public class StatusBarActivity extends AppCompatActivity {
         mViewStatusBar.setVisibility(View.GONE);
         mLlTitle.setVisibility(View.GONE);
         mIvimage.setVisibility(View.VISIBLE);
-        BarUtils.setTransparencyBar(StatusBarActivity.this);
+        BarUtils.setTransparencyBarExceptNavigationBar(StatusBarActivity.this);
     }
 }

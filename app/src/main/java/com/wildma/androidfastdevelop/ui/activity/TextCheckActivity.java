@@ -15,7 +15,7 @@ import com.wildma.androidfastdevelop.utils.TextCheckUtils;
 /**
  * Author       wildma
  * Date         2017/10/8
- * Desc	        ${监听多个EditText与TextView文本，改变按钮状态。}
+ * Desc	        ${监听多个EditText与TextView文本，改变按钮状态demo。}
  */
 public class TextCheckActivity extends AppCompatActivity {
 
@@ -62,7 +62,7 @@ public class TextCheckActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (TextUtils.isEmpty(mTvUpload.getText().toString())) {
-                    mTvUpload.setText("已上传");
+                    mTvUpload.setText(getString(R.string.uploaded));
                 } else {
                     mTvUpload.setText("");
                 }

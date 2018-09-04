@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Author       wildma
  * Date         2017/10/8
- * Desc	        ${测试json数据解析}
+ * Desc	        ${json数据解析demo}
  */
 public class JsonDataParseActivity extends Activity {
 

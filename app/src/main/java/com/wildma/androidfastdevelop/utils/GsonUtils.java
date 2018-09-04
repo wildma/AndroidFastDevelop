@@ -7,6 +7,8 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
+import com.wildma.androidfastdevelop.MyApplication;
+import com.wildma.androidfastdevelop.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,7 +31,7 @@ public class GsonUtils {
     private static final String CODE            = "code";//服务器返回状态码的字段，例如：0=成功、1=失败、其他...
     private static final String MESSAGE         = "message";//服务器返回消息的字段，例如："请求成功"、"删除成功"、"服务器出现异常"
     private static final String DATA            = "data";//服务器返回数据的字段
-    private static final String MESSAGE_DEFAULT = "服务器出了点小问题，请稍候再试！";//服务器出现异常等，但是没有返回message说明，前端默认给的
+    private static final String MESSAGE_DEFAULT = MyApplication.getContext().getString(R.string.server_error);//服务器出现异常等，但是没有返回message说明，前端默认给的
 
     /**
      * 解析jsonObject

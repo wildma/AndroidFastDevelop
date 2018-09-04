@@ -12,7 +12,7 @@ import com.wildma.androidfastdevelop.R;
  * Author       wildma
  * Github       https://github.com/wildma
  * CreateDate   2018/8/17
- * Desc	        ${消息通知Demo（包括图标上显示未读消息数量、图标上显示红点）}
+ * Desc	        ${消息通知demo（包括图标上显示未读消息数量、图标上显示红点）}
  */
 public class MessageNoticeActivity extends AppCompatActivity {
 

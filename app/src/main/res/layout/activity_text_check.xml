@@ -35,7 +35,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:minWidth="120dp"
-                        android:text="联系人姓名"
+                        android:text="@string/contact_name"
                         android:textColor="@color/color_666666"
                         android:textSize="15sp"/>
 
@@ -47,7 +47,7 @@
                         android:background="@color/color_white"
                         android:ellipsize="end"
                         android:gravity="center_vertical"
-                        android:hint="请输入您的姓名"
+                        android:hint="@string/input_contact_name"
                         android:maxLines="1"
                         android:textColor="@color/color_212121"
                         android:textColorHint="@color/color_cccccc"
@@ -70,7 +70,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
                         android:minWidth="120dp"
-                        android:text="联系人电话"
+                        android:text="@string/contact_phone"
                         android:textColor="@color/color_666666"
                         android:textSize="15sp"/>
 
@@ -82,7 +82,7 @@
                         android:background="@color/color_white"
                         android:ellipsize="end"
                         android:gravity="center_vertical"
-                        android:hint="请输入您的电话号码"
+                        android:hint="@string/input_contact_phone"
                         android:inputType="phone"
                         android:maxLength="11"
                         android:maxLines="1"
@@ -106,7 +106,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
-                        android:text="身份证照片"
+                        android:text="@string/id_card_photo"
                         android:textColor="@color/color_666666"
                         android:textSize="15sp"/>
 
@@ -141,7 +141,7 @@
                 android:background="@drawable/selector_bg_46b4fe_3f51f5"
                 android:enabled="false"
                 android:gravity="center"
-                android:text="提交"
+                android:text="@string/submit"
                 android:textColor="@color/color_white"
                 android:textSize="18sp"/>
 

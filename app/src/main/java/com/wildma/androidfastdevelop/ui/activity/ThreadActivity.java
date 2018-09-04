@@ -15,7 +15,7 @@ import java.util.concurrent.Future;
 /**
  * Author       wildma
  * Date         2017/10/5
- * Desc	        ${创建线程的三种方式}
+ * Desc	        ${创建线程的三种方式demo}
  */
 public class ThreadActivity extends AppCompatActivity {
 

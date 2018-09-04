@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AndroidFastDevelop</string>
+    <string name="welcome_text">热烈欢迎领导来我司指导工作</string>
+    <string name="Waiting_hint">正在载入数据...</string>
+    <string name="uploaded">已上传</string>
+    <string name="have_message">有消息</string>
+    <string name="not_have_message">无消息</string>
+    <string name="title_statusbar_mode">标题栏与状态栏一体化</string>
+    <string name="image_statusbar_mode">背景图与状态栏一体化</string>
+    <string name="contact_name">联系人姓名</string>
+    <string name="input_contact_name">请输入您的姓名</string>
+    <string name="contact_phone">联系人电话</string>
+    <string name="input_contact_phone">请输入您的电话号码</string>
+    <string name="id_card_photo">身份证照片</string>
+    <string name="submit">提交</string>
+    <string name="server_error">服务器出了点小问题，请稍候再试！</string>
 </resources>

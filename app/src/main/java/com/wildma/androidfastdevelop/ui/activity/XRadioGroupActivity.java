@@ -11,7 +11,7 @@ import com.wildma.androidfastdevelop.widget.XRadioGroup;
  * Author       wildma
  * Github       https://github.com/wildma
  * CreateDate   2018/7/29
- * Desc	        ${演示XRadioGroup的使用}
+ * Desc	        ${XRadioGroup的使用demo}
  */
 public class XRadioGroupActivity extends AppCompatActivity {
 

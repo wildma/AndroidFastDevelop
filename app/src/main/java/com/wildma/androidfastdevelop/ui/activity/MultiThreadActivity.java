@@ -9,7 +9,7 @@ import com.wildma.androidfastdevelop.R;
 /**
  * Author       wildma
  * Date         2017/10/5
- * Desc	        ${模拟多线程并发操作同一数据出现线程安全}
+ * Desc	        ${模拟多线程并发操作同一数据出现线程安全demo}
  */
 public class MultiThreadActivity extends AppCompatActivity {
 

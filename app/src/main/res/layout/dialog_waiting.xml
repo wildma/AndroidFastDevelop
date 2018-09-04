@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:gravity="center"
-        android:text="正在载入数据..."
+        android:text="@string/Waiting_hint"
         android:textColor="@color/color_white"
         android:textSize="16sp"/>
 </LinearLayout>

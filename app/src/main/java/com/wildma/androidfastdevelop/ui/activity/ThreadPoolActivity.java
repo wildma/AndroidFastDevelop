@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Author       wildma
  * Date         2017/10/6
- * Desc	        ${四种线程池使用}
+ * Desc	        ${四种线程池使用demo}
  */
 public class ThreadPoolActivity extends AppCompatActivity {
 

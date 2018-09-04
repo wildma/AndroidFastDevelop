@@ -106,7 +106,7 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:onClick="showMessage"
-            android:text="有消息"
+            android:text="@string/have_message"
             android:textColor="@color/white"/>
 
         <Button
@@ -116,7 +116,7 @@
             android:background="@color/colorAccent"
             android:gravity="center"
             android:onClick="hideMessage"
-            android:text="无消息"
+            android:text="@string/not_have_message"
             android:textColor="@color/white"/>
 
     </LinearLayout>

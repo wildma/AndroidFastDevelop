@@ -45,7 +45,7 @@
         android:layout_marginTop="50dp"
         android:onClick="titleStatusBarMode"
         android:padding="5dp"
-        android:text="标题栏与状态栏一体化"
+        android:text="@string/title_statusbar_mode"
         android:textSize="16sp"/>
 
     <Button
@@ -55,7 +55,7 @@
         android:layout_marginTop="20dp"
         android:onClick="imageStatusBarMode"
         android:padding="5dp"
-        android:text="背景图与状态栏一体化"
+        android:text="@string/image_statusbar_mode"
         android:textSize="16sp"/>
 
 </LinearLayout>

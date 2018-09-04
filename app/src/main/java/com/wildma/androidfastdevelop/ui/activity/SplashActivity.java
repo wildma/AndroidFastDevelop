@@ -8,6 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import com.wildma.androidfastdevelop.MainActivity;
 import com.wildma.androidfastdevelop.R;
 
+/**
+ * Author       wildma
+ * Github       https://github.com/wildma
+ * CreateDate   2018/1/16
+ * Desc	        ${splash demo}
+ */
 public class SplashActivity extends AppCompatActivity {
 
     @Override
