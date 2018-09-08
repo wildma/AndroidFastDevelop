@@ -5,6 +5,8 @@
     <!--读写权限-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--相机权限-->
+    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:name=".MyApplication"
@@ -49,6 +51,15 @@
         <activity
             android:name=".ui.activity.WaitingDialogActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.PermissionDemoActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".utils.PermissionUtils$PermissionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:multiprocess="true"
+            android:theme="@style/ActivityTransparent"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden"/>
     </application>
 
 </manifest>

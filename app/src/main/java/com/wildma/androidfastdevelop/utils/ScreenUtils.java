@@ -1,6 +1,9 @@
 package com.wildma.androidfastdevelop.utils;
 
+import android.app.Activity;
 import android.content.Context;
+import android.support.annotation.NonNull;
+import android.view.WindowManager;
 
 /**
  * Author       wildma
@@ -28,5 +31,15 @@ public class ScreenUtils {
      */
     public static int getScreenHeight(Context context) {
         return context.getResources().getDisplayMetrics().heightPixels;
+    }
+
+    /**
+     * 设置全屏
+     *
+     * @param activity
+     */
+    public static void setFullScreen(@NonNull final Activity activity) {
+        activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN
+                | WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
     }
 }

@@ -14,4 +14,12 @@
     <string name="id_card_photo">身份证照片</string>
     <string name="submit">提交</string>
     <string name="server_error">服务器出了点小问题，请稍候再试！</string>
+
+    <!--权限相关-->
+    <string name="permission_denied_hint">我们需要一些您已经拒绝的权限，请同意授权，否则功能无法正常使用！</string>
+    <string name="permission_denied_forever_hint">我们需要一些您已经拒绝的权限，请到设置页面手动授权，否则功能无法正常使用！</string>
+    <string name="open_app_details_settings">open_app_details_settings</string>
+    <string name="request_storage_permission_simple">request_storage_permission_simple</string>
+    <string name="request_storage_permission">request_storage_permission</string>
+    <string name="request_camera_permission">request_camera_permission</string>
 </resources>
