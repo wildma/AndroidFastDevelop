@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_47"
+        android:background="@color/color_f7f9fa"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_14">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/color_1b88ed"
+            android:textSize="@dimen/sp_16"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/select_title"
+            android:textColor="@color/color_333333"
+            android:textSize="@dimen/sp_16"
+            />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/comfirm"
+            android:textColor="@color/color_1b88ed"
+            android:textSize="@dimen/sp_16"
+            />
+    </RelativeLayout>
+
+    <!--显示4个item布局显示数据不好看，所以利用上下23dp代替那个item-->
+    <com.wildma.androidfastdevelop.widget.wheelview.WheelView
+        android:id="@+id/wheelview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_141"
+        android:layout_marginBottom="@dimen/dp_23"
+        android:layout_marginTop="@dimen/dp_23"
+        app:wheel_float_layout="@layout/include_wheel_float">
+    </com.wildma.androidfastdevelop.widget.wheelview.WheelView>
+
+</LinearLayout>

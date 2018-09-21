@@ -22,4 +22,10 @@
     <string name="request_storage_permission_simple">request_storage_permission_simple</string>
     <string name="request_storage_permission">request_storage_permission</string>
     <string name="request_camera_permission">request_camera_permission</string>
+
+    <!--滚轮控件demo相关-->
+    <string name="select_title">选择标题</string>
+    <string name="comfirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="wheel_view_title">一个很长很长很长很长很长很长很长很长很长很长很长的标题</string>
 </resources>

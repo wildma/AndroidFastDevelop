@@ -39,9 +39,9 @@
             android:name=".ui.activity.TabLayoutActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:name=".ui.activity.StatusBarActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".ui.activity.MessageNoticeActivity"
             android:screenOrientation="portrait"/>
@@ -60,6 +60,9 @@
             android:multiprocess="true"
             android:theme="@style/ActivityTransparent"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden"/>
+        <activity
+            android:name=".ui.activity.WheelViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
