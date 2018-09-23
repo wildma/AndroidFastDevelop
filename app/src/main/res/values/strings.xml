@@ -25,7 +25,19 @@
 
     <!--滚轮控件demo相关-->
     <string name="select_title">选择标题</string>
-    <string name="comfirm">确定</string>
+    <string name="confirm">确定</string>
     <string name="cancel">取消</string>
     <string name="wheel_view_title">一个很长很长很长很长很长很长很长很长很长很长很长的标题</string>
+
+    <!--RecyclerView批量操作 start-->
+    <string name="recyclerview_batch_operation">RecyclerView批量操作</string>
+    <string name="edit">编辑</string>
+    <string name="already_select">已选择</string>
+    <string name="delete">删除</string>
+    <string name="all_selection">全选</string>
+    <string name="cancel_all_selection">取消全选</string>
+    <string name="hint">提示</string>
+    <string name="batch_operation_delete_hint">删除后不可恢复，是否删除该条目？</string>
+    <string name="batch_operation_delete_hint2">删除后不可恢复，是否删除这%1$s个条目？</string>
+    <!--RecyclerView批量操作 end-->
 </resources>

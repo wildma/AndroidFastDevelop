@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_48"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/recyclerview_batch_operation"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_15"
+            android:text="@string/edit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:scrollbars="vertical"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/color_e6e6e6"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:background="@color/color_e5e5e5"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_45"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_already_chosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:text="@string/already_select"
+                android:textColor="@color/color_1a1a1a"
+                android:textSize="@dimen/sp_14"/>
+
+            <TextView
+                android:id="@+id/tv_select_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_9"
+                android:layout_toRightOf="@+id/tv_already_chosen"
+                android:text="0"
+                android:textColor="@color/color_1a1a1a"
+                android:textSize="@dimen/sp_14"/>
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_33"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_15"
+                android:background="@drawable/shape_bg_8f7a55_corners_6dp"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:textColor="@color/color_b7b8bd"
+                android:textSize="@dimen/sp_14"/>
+
+            <Button
+                android:id="@+id/btn_all_select"
+                android:layout_width="@dimen/dp_80"
+                android:layout_height="@dimen/dp_33"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_toLeftOf="@+id/btn_delete"
+                android:background="@drawable/shape_bg_all_select"
+                android:gravity="center"
+                android:text="@string/all_selection"
+                android:textColor="@color/color_000001"
+                android:textSize="@dimen/sp_14"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

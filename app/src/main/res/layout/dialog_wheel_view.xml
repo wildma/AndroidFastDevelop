@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="@string/comfirm"
+            android:text="@string/confirm"
             android:textColor="@color/color_1b88ed"
             android:textSize="@dimen/sp_16"
             />

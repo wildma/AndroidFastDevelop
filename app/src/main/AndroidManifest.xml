@@ -63,6 +63,9 @@
         <activity
             android:name=".ui.activity.WheelViewActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.BatchOperationActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
