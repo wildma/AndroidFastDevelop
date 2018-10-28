@@ -66,6 +66,12 @@
         <activity
             android:name=".ui.activity.BatchOperationActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.EventBusFirstActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.EventBusSecondActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
