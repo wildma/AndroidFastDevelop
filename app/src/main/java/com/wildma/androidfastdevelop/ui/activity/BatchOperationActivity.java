@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.wildma.androidfastdevelop.R;
 import com.wildma.androidfastdevelop.adapter.BatchOperationAdapter;
 import com.wildma.androidfastdevelop.bean.BatchOperationBean;
-import com.wildma.androidfastdevelop.widget.DividerItemDecoration;
+import com.wildma.androidfastdevelop.widget.DividerLinearItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,9 +68,9 @@ public class BatchOperationActivity extends Activity implements View.OnClickList
         mBatchOperationAdapter = new BatchOperationAdapter(this);
         mLinearLayoutManager = new LinearLayoutManager(this);
         mRecyclerview.setLayoutManager(mLinearLayoutManager);
-        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST, true);
-        dividerItemDecoration.setDividerDrawable(ContextCompat.getDrawable(this, R.drawable.shape_common_divider));
-        mRecyclerview.addItemDecoration(dividerItemDecoration);
+        DividerLinearItemDecoration dividerLinearItemDecoration = new DividerLinearItemDecoration(this, DividerLinearItemDecoration.VERTICAL_LIST, true);
+        dividerLinearItemDecoration.setDividerDrawable(ContextCompat.getDrawable(this, R.drawable.shape_common_linear_divider));
+        mRecyclerview.addItemDecoration(dividerLinearItemDecoration);
         mRecyclerview.setAdapter(mBatchOperationAdapter);
         for (int i = 0; i < 30; i++) {
             BatchOperationBean batchOperationBean = new BatchOperationBean();

@@ -72,6 +72,9 @@
         <activity
             android:name=".ui.activity.EventBusSecondActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.RecyclerViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
