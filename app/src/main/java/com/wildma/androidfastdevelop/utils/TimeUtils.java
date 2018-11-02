@@ -1,5 +1,6 @@
 package com.wildma.androidfastdevelop.utils;
 
+import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
 
 import com.wildma.androidfastdevelop.global.TimeConstants;
@@ -19,6 +20,12 @@ import java.util.Locale;
  * Source       Blankj
  */
 public final class TimeUtils {
+
+    @SuppressLint("SimpleDateFormat")
+    public static final DateFormat DATE_FORMAT_Y_M_D = new SimpleDateFormat("yyyy-MM-dd");
+
+    @SuppressLint("SimpleDateFormat")
+    public static final DateFormat DATE_FORMAT_H_M = new SimpleDateFormat("HH:mm");
 
     private static final ThreadLocal<SimpleDateFormat> SDF_THREAD_LOCAL = new ThreadLocal<>();
 
