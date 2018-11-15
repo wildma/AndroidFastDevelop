@@ -38,4 +38,5 @@ dependencies {
     compile 'org.greenrobot:eventbus:3.1.1' //EventBus
     compile 'me.ele:uetool:1.0.15'//UI调试工具
     releaseCompile 'me.ele:uetool-no-op:1.0.15'//UI调试工具
+    compile 'com.github.bumptech.glide:glide:4.8.0'//Glide
 }
