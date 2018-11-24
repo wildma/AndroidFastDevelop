@@ -85,6 +85,9 @@
         <activity
             android:name=".ui.activity.GlideActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.NotNullActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
