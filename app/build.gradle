@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion "27.0.0"
     defaultConfig {
         applicationId "com.wildma.androidfastdevelop"
         minSdkVersion 14
@@ -17,25 +16,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'//禁止 AS 出现 App is not indexable by Google Search 警告
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:27.+'
-    compile 'com.android.support:design:27.+'
-    compile 'com.android.support:recyclerview-v7:27.+'
-    compile 'com.android.support:cardview-v7:27.+'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:27.+'
+    implementation 'com.android.support:design:27.+'
+    implementation 'com.android.support:recyclerview-v7:27.+'
+    implementation 'com.android.support:cardview-v7:27.+'
 
-    compile 'com.google.code.gson:gson:2.2.4'//gson
-    compile 'com.jakewharton:butterknife:8.5.1'//butterknife
+    implementation 'com.google.code.gson:gson:2.2.4'//gson
+    implementation 'com.jakewharton:butterknife:8.5.1'//butterknife
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'//butterknife
-    compile 'com.nineoldandroids:library:2.4.0' //动画兼容库
-    compile 'org.greenrobot:eventbus:3.1.1' //EventBus
-    compile 'me.ele:uetool:1.0.15'//UI调试工具
-    releaseCompile 'me.ele:uetool-no-op:1.0.15'//UI调试工具
-    compile 'com.github.bumptech.glide:glide:4.8.0'//Glide
+    implementation 'com.nineoldandroids:library:2.4.0' //动画兼容库
+    implementation 'org.greenrobot:eventbus:3.1.1' //EventBus
+    implementation 'me.ele:uetool:1.0.15'//UI调试工具
+    releaseImplementation 'me.ele:uetool-no-op:1.0.15'//UI调试工具
+    implementation 'com.github.bumptech.glide:glide:4.8.0'//Glide
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--正常TextView-->
+    <TextView
+        style="@style/testPaddingTextView"
+        android:text="Hellog"/>
+
+    <!--includeFontPadding-->
+    <TextView
+        style="@style/testPaddingTextView"
+        android:includeFontPadding="false"
+        android:text="Hellog"/>
+
+    <!--自定义view-->
+    <com.wildma.androidfastdevelop.widget.MultiplTextView
+        style="@style/testPaddingTextView"
+        android:text="Hellog"
+        app:removeDefaultPadding="true"/>
+
+</LinearLayout>
